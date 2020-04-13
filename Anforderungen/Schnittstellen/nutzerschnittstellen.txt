@@ -1,0 +1,121 @@
+Gebaeudeleitsystem FHW 3000
+===========================
+Bitte geben Sie Ihre ID ein:					(Startbildschirm)
+
+Hallo <Vorname> <Name> 
+
+Was möchten Sie tun?						(Hauptmenü)
+---------------------------
+IST-Temperatur abfragen          (a)
+Temperatur aendern               (b)
+---------------------------
+Temperaturbereich aendern	 (c)
+Temperaturverlauf aendern        (d)
+
+neuen Benutzer anlegen           (n)
+---------------------------
+Beenden                          (e)
+
+Ihre Wahl:
+
+
+----------------------------------------------------------------------------------------------------
+Bei Wahl von a oder b Anzeige der Räume abhängig von der ID:
+
+Raumuebersicht
+==============
+Kueche          (k)
+Bad             (b)
+Schlafzimmer    (s)
+Wohnzimmer      (w)
+Flur            (f)
+Kinderzimmer    (i)
+
+zurueck         (z)						(Bei Eingabe von (z) Rückkehr zum Hauptmenü)
+
+Ihr Wahl:
+
+<Raum>
+Die aktuelle Temperatur betraegt: 18.1 Grad C
+
+
+oder
+<Raum>
+Die eingestellte Temperatur betraegt: 20.0 Grad C
+Temperaturaenderungen bitte als dreistellige Ganzzahl -> 20.5 = 205
+im Bereich von <tempmin> bis <tempmax>
+zurueck (z)
+Neue Temperatur:
+
+Sie haben die Temperatur auf <temp> Grad C geaendert.
+Ist diese Eingabe korrekt?(j)(n)
+
+oder
+Falsche Eingabe,
+Temperaturaenderungen bitte als dreistellige Ganzzahl -> 20.5 = 205
+im Bereich von <tempmin> bis <tempmax>
+zurueck (z)
+Neue Temperatur:
+
+oder
+Falsches Raumzeichen
+Bitte waehlen Sie aus der angegebenen Liste!
+
+-----------------------------------------------------------------------------------
+Bei Wahl von c
+
+Temperaturbereich aendern
+=========================
+eingestellter Min-Wert: <tempmin>
+eingestellter Max-Wert: <tempmax>
+Welchen Wert moechten Sie aendern?
+min     (a)
+max     (b)
+zurueck (z)
+Ihre Wahl:
+
+Temperaturaenderungen bitte als dreistellige Ganzzahl -> 20.5 = 205
+zurueck (z)
+Neue Temperatur: 
+
+Min/Max-Wert auf <tneu> geaendert.
+Ist diese Eingabe korrekt?(j)(n)
+
+
+
+-----------------------------------------------------------------------------------
+Bei Wahl von d
+
+Temperaturverlauf aendern
+=========================
+eingestellte Nachtabsenkung: Tagestemperatur -20%
+Neuer Wert als Ganzzahl zwischen 0 und 100
+zurueck (z)
+Neuer Wert:
+
+Nachtabsenkung eingestellt auf: Tagestemperatur -25%
+Ist diese Eingabe korrekt?(j)(n)
+
+
+---------------------------------------------------------------------------------------
+
+bei Wahl von n
+
+Neuen Benutzer anlegen
+======================
+zurueck (z)
+Bitte geben Sie ein:
+Vorname:
+Name:
+Rolle (a) Admin, (h) Hausmeister, (m) Mieter:
+
+Wohnungs-ID:
+
+Sie haben eingegeben: 
+Name: Max Mustermann
+Rolle: Mieter
+Wohnungs-ID: 123
+Ist diese Eingabe korrekt?(j)(n)
+
+ID wird generiert...
+ID: 123456789012
